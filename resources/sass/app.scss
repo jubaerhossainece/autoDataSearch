@@ -1,0 +1,26 @@
+
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+//Fontawesome added
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+
+// //We have added styling link for snotify 
+@import "~vue-snotify/styles/material";
+
+
+// @import "~vue-snotify/styles/material";
+
+//Our custom css file will be included here
+@import 'Custom';
+
+

@@ -1,0 +1,82 @@
+.row, .table{
+  z-index: 0 !important;
+}
+.selectButton{
+  padding: 0 !important;
+  color:   #464747;
+  text-align: left;
+  font-size: 0.9rem;
+  background-color: white;
+  border: 1px solid #c9cdca;
+  /*box-shadow: 0 0px 6px 0px  #c9cdca;*/
+  height: 2.2rem;
+  width: 11rem;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.selectButton:hover{
+  box-shadow: 0 0px 5px 1px  #c9cdca;
+}
+
+.selectButton:focus{
+  box-shadow: 0 0px 5px 1px  #c9cdca;
+}
+
+.selectButton span{
+  padding-left: 0.7rem;
+}
+.fa-angle-down{
+  vertical-align: middle;
+  color: #1dbf73;
+  position: absolute;
+  font-size: 1.1rem;
+  right: 0.7rem;
+  top: 0.6rem;
+}
+.dropmenu{
+  position: relative;
+}
+.ulist{
+  position: absolute;
+  z-index: 10;
+}
+
+.ulist{
+  padding: 0;  
+  width: 11rem;
+  border: 1px solid #c9cdca;
+  border-top: none;
+  box-shadow: 0 0px 5px 1px  #c9cdca;
+  clip-path: inset(0px -8px -8px -8px);
+  border-radius: 0 0 3px 3px;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: 0.3s opacity;
+}
+
+ .radio{ visibility: hidden; }
+
+.selectOption{
+  margin: 0;
+  font-weight: 400 !important;
+  list-style: none;
+  color: #464747;
+  background-color: white;
+  width: 100%;
+  padding: 0.28rem 0 0.28rem 0.7rem;
+  align-items: left;
+  cursor: pointer;
+  margin-bottom: 0 !important;
+}
+
+.selectOption:hover{
+  background-color: #f1f1ef;
+  transition: 0.3s;
+}
+
+.selectOption:last-child{
+  border: none;
+}
